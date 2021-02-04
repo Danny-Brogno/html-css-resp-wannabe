@@ -1,23 +1,85 @@
-/* body {
-  background-color: red;
+/* FIRST SECTION ENDS WITH RED BACKGROUND */
+
+@media screen and (max-width: 420px) {
+
+#lezioni {
+
 }
 
-.container {
-  background-color: blue;
-} */
-
-@media screen and (min-width: 420px;) {
+#lezioni .row {
+  /* debug */
+  background-color: red;
+  }
 
 #lezioni .row>.left {
   width: 100%;
   float: none;
-  display: block;
+  font-size: 200%;
 }
 
 #lezioni .row>.right {
   width: 100%;
   float: none;
-  display: block;
+  font-size: 200%;
 }
 
+.left {
+  max-width: 50%;
+  padding: 10px 5%;
+  margin: auto;
+  /* debug */
+  color: green;
+}
+
+.right {
+  max-width: 50%;
+  padding: 10px 5%;
+  margin: auto;
+  /* debug */
+  color: yellow;
+}
+
+}
+
+@media screen and (max-width: 420px) {
+
+  #steps .row {
+    /* debug */
+    background-color: blue;
+  }
+
+  #steps .row>.central {
+    max-width: 50%;
+    padding: 10px 5%;
+    margin: auto;
+    /* debug */
+    color: purple;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+    font-size: 200%;
+  }
+
+}
+
+@media screen and (max-width: 420px) {
+
+  #why .row {
+    /* debug */
+    background-color: orange;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin-top: 50px;
+  }
+
+  #why .row img {
+    padding: 0px;
+  }
 }
