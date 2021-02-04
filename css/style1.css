@@ -1,4 +1,71 @@
-/* FIRST SECTION ENDS WITH RED BACKGROUND */
+/* TABLET SECTION 1 */
+@media screen and (max-width: 600px) {
+
+#lezioni .row {
+  /* debug */
+  background-color: red;
+}
+
+.row {
+  width: 100%;
+  margin-top: 0px;
+}
+
+#lezioni .row>.left,
+#lezioni .row>.right {
+  width: 100%;
+  float: none;
+  margin: auto;
+}
+
+}
+
+
+/* TABLET SECTION 2 */
+@media screen and (max-width: 600px) {
+
+  #steps .row {
+    /* debug */
+    background-color: blue;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central {
+    width: 50%;
+  }
+
+
+  #speps .row>.right {
+    float: none;
+    margin: auto;
+  }
+
+  #speps .row>.central::after {
+    content: '';
+    display: table;
+    clear: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MOBILE PHONE SECTION 1 */
 
 @media screen and (max-width: 420px) {
 
@@ -21,7 +88,7 @@
 
 }
 
-/*  SECOND SECTION ENDS WITH BLUE BACKGROUND */
+/*  MOBILE PHONE SECTION 2 */
 
 @media screen and (max-width: 420px) {
 
@@ -40,7 +107,7 @@
 
 }
 
-/* THIRD SECTION ENDS WITH ORANGE BACKGROUND */
+/* MOBILE PHONE SECTION 3 */
 
 @media screen and (max-width: 420px) {
 
