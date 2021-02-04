@@ -1,5 +1,5 @@
 /* TABLET SECTION 1 */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
 
 #lezioni .row {
   /* debug */
@@ -22,7 +22,7 @@
 
 
 /* TABLET SECTION 2 */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
 
   #steps .row {
     /* debug */
@@ -34,20 +34,32 @@
     width: 50%;
   }
 
-
-  #speps .row>.right {
-    float: none;
-    margin: auto;
-  }
-
-  #speps .row>.central::after {
-    content: '';
+  #steps .row>.central {
+    content: "";
     display: table;
-    clear: none;
+    clear: right;
   }
+
+  #steps .row>.right {
+    width: 50%;
+    float: none;
+    margin: 0 auto;
+  }
+
 }
 
+@media screen and (max-width: 768px) {
 
+  #why .row {
+    /* debug */
+    background-color: orange;
+  }
+
+  #why h3 {
+    color: red;
+  }
+
+}
 
 
 
